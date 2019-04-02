@@ -33,17 +33,12 @@ Ahora creamos el archivo codificandolo como:
  `<?xml version="1.0" encoding="UTF-8"?>`
 
   `<aiml version="2.0">`
-Agregamos las caracteristicas del ejemplo traducidas a la lengua _Española_.
+
+Agregamos las características del ejemplo de _Steve Worswick_ traducidas a la lengua _Española_.
+
+
 
 ![Archivo .aiml turismo](https://github.com/andreshmb/LMSGI-04.github.io/blob/master/img/aiml-turismo.jpg)
-
-
-
-
-
-
-
-
 
 
  - #### Segunda Tarea:
@@ -82,7 +77,7 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTg0NzI2OSwtMTE3MjM4NjQ2NiwtMj
-AxODQzNzA5NCwtOTg3MTI3OTcyLDE2OTcxMDg2NzcsNjU3Mjk2
-MDUzLDQyNTcyNDk4LDk4MTAxNDEwNl19
+eyJoaXN0b3J5IjpbLTkzOTIwMDgsLTExNzIzODY0NjYsLTIwMT
+g0MzcwOTQsLTk4NzEyNzk3MiwxNjk3MTA4Njc3LDY1NzI5NjA1
+Myw0MjU3MjQ5OCw5ODEwMTQxMDZdfQ==
 -->
