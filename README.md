@@ -8,7 +8,11 @@ En esta tarea hay que hacer dos ***Chatbots***. El primero de ellos tiene como p
 ![Chatbot Turístico](https://github.com/andreshmb/LMSGI-04.github.io/blob/master/img/aiml-tutorial-steve-worswick.jpg)
 Para la realización de la tarea hay que acceder a la plataforma [Pandorabots](https://home.pandorabots.com/home.html), crear una cuenta y acceder a la plataforma. En donde podremos crear nuestro primer ***Chatbot*** desde el panel superior izquierdo pulsando en ***MY BOTS +*** , donde indicaremos el nombre y lenguaje del **Bot**, así como el contenido del bot en donde indicaremos que sea en blanco para realizarlo desde cero.
 Crear nuevo bot:
+
+
 ![New bot](https://github.com/andreshmb/LMSGI-04.github.io/blob/master/img/crear-bot.jpg)
+
+
 Configuración inicial bot:
 
 
@@ -59,7 +63,7 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNjY5MDg0NCwtMjAxODQzNzA5NCwtOT
-g3MTI3OTcyLDE2OTcxMDg2NzcsNjU3Mjk2MDUzLDQyNTcyNDk4
-LDk4MTAxNDEwNl19
+eyJoaXN0b3J5IjpbLTEyNDAzMzYyMjgsLTIwMTg0MzcwOTQsLT
+k4NzEyNzk3MiwxNjk3MTA4Njc3LDY1NzI5NjA1Myw0MjU3MjQ5
+OCw5ODEwMTQxMDZdfQ==
 -->
