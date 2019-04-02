@@ -7,8 +7,7 @@ Con ***AIML*** se puede definir el comportamiento de los **bots** conversacional
 En esta tarea hay que hacer dos ***Chatbots***. El primero de ellos tiene como punto de partida la traducción, en mi caso lo haré al _Español_, de un ejemplo de información turística en _Inglés_ disponible en el tutorial de [Steve Worswick](https://medium.com/pandorabots-blog/aiml-tutorial-creating-a-context-aware-multi-functional-chatbot-e5e82c027a6a).
 ![Chatbot Turístico](https://github.com/andreshmb/LMSGI-04.github.io/blob/master/img/aiml-tutorial-steve-worswick.jpg)
  - Segunda Tarea:
-En esta segunda tarea hay que hacer un ***Chatbot*** sobre cualquier tema que nos interese o hacer modificaciones tanto sustanciales como ampliaciones de algunos de los ejemplos disponibles en ***Github*** en el repositorio de _Pandorabots_
-
+En esta segunda tarea hay que hacer un ***Chatbot*** sobre cualquier tema que nos interese o hacer modificaciones tanto sustanciales como ampliaciones de algunos de los ejemplos disponibles en ***Github*** en el repositorio de [Pandorabots](https://github.com/pandorabots/free-AIML).
 
 
 ### Markdown
@@ -43,6 +42,6 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODIyNzE3MTQsNDI1NzI0OTgsOTgxMD
-E0MTA2XX0=
+eyJoaXN0b3J5IjpbNDI3NDQyNTI5LDQyNTcyNDk4LDk4MTAxND
+EwNl19
 -->
