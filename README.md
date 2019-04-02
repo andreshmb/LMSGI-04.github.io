@@ -3,7 +3,7 @@
 Unos de los dialectos de ***XML***, es ***AIML***, que significa Lenguaje de Marcado para la Inteligencia Artificial.
 Con ***AIML*** se puede definir el comportamiento de los **bots** conversacionales denominados, ***Chatbots***.
 
- - #### Primera Tarea:
+ 1. #### Primera Tarea:
 En esta tarea hay que hacer dos ***Chatbots***. El primero de ellos tiene como punto de partida la traducción, en mi caso lo haré al _Español_, de un ejemplo de información turística en _Inglés_ disponible en el tutorial de [Steve Worswick](https://medium.com/pandorabots-blog/aiml-tutorial-creating-a-context-aware-multi-functional-chatbot-e5e82c027a6a).
 ![Chatbot Turístico](https://github.com/andreshmb/LMSGI-04.github.io/blob/master/img/aiml-tutorial-steve-worswick.jpg)
 Para la realización de la tarea hay que acceder a la plataforma [Pandorabots](https://home.pandorabots.com/home.html), crear una cuenta y acceder a la plataforma. En donde podremos crear nuestro primer ***Chatbot*** desde el panel superior izquierdo pulsando en ***MY BOTS +*** , donde indicaremos el nombre y lenguaje del **Bot**, así como el contenido del bot en donde indicaremos que sea en blanco para realizarlo desde cero.
@@ -41,12 +41,12 @@ Agregamos las características del ejemplo de _Steve Worswick_ traducidas a la l
 ![Archivo .aiml turismo](https://github.com/andreshmb/LMSGI-04.github.io/blob/master/img/aiml-turismo.jpg)
 
 
- - #### Segunda Tarea:
+ 2. #### Segunda Tarea:
 En esta segunda tarea hay que hacer un ***Chatbot*** sobre cualquier tema que nos interese o hacer modificaciones tanto sustanciales como ampliaciones de algunos de los ejemplos disponibles en ***Github*** en el repositorio de [Pandorabots](https://github.com/pandorabots/free-AIML).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI0MTQwMTQ2LC0xMTcyMzg2NDY2LC0yMD
-E4NDM3MDk0LC05ODcxMjc5NzIsMTY5NzEwODY3Nyw2NTcyOTYw
-NTMsNDI1NzI0OTgsOTgxMDE0MTA2XX0=
+eyJoaXN0b3J5IjpbNTM2NzkyNTUzLDQyNDE0MDE0NiwtMTE3Mj
+M4NjQ2NiwtMjAxODQzNzA5NCwtOTg3MTI3OTcyLDE2OTcxMDg2
+NzcsNjU3Mjk2MDUzLDQyNTcyNDk4LDk4MTAxNDEwNl19
 -->
