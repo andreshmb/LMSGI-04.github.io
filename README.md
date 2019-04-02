@@ -21,6 +21,8 @@ Configuración inicial bot:
 Una vez creado el primer bot, lo editamos:
 
 ![Editor de código aiml](https://github.com/andreshmb/LMSGI-04.github.io/blob/master/img/editar-bot-code-editor.jpg)
+Desde File, creamos un nuevo archivo .aiml:
+
 
 
 
@@ -63,7 +65,7 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNTY5MTAyNiwtMTE3MjM4NjQ2NiwtMj
-AxODQzNzA5NCwtOTg3MTI3OTcyLDE2OTcxMDg2NzcsNjU3Mjk2
-MDUzLDQyNTcyNDk4LDk4MTAxNDEwNl19
+eyJoaXN0b3J5IjpbNzAwODAxMDU4LC0xMTcyMzg2NDY2LC0yMD
+E4NDM3MDk0LC05ODcxMjc5NzIsMTY5NzEwODY3Nyw2NTcyOTYw
+NTMsNDI1NzI0OTgsOTgxMDE0MTA2XX0=
 -->
