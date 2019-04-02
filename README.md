@@ -45,39 +45,8 @@ Agregamos las características del ejemplo de _Steve Worswick_ traducidas a la l
 En esta segunda tarea hay que hacer un ***Chatbot*** sobre cualquier tema que nos interese o hacer modificaciones tanto sustanciales como ampliaciones de algunos de los ejemplos disponibles en ***Github*** en el repositorio de [Pandorabots](https://github.com/pandorabots/free-AIML).
 
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/andreshmb/LMSGI.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzOTIwMDgsLTExNzIzODY0NjYsLTIwMT
-g0MzcwOTQsLTk4NzEyNzk3MiwxNjk3MTA4Njc3LDY1NzI5NjA1
-Myw0MjU3MjQ5OCw5ODEwMTQxMDZdfQ==
+eyJoaXN0b3J5IjpbNDI0MTQwMTQ2LC0xMTcyMzg2NDY2LC0yMD
+E4NDM3MDk0LC05ODcxMjc5NzIsMTY5NzEwODY3Nyw2NTcyOTYw
+NTMsNDI1NzI0OTgsOTgxMDE0MTA2XX0=
 -->
