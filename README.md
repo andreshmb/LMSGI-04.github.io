@@ -18,7 +18,7 @@ Configuración inicial bot:
 
 ![Creación del bot](https://github.com/andreshmb/LMSGI-04.github.io/blob/master/img/crear-bot-turistico-simple.jpg).
 
-
+Una vez creado el primer bot, 
 
 
 
@@ -59,7 +59,7 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MzE2MjYxNiwtMjAxODQzNzA5NCwtOT
-g3MTI3OTcyLDE2OTcxMDg2NzcsNjU3Mjk2MDUzLDQyNTcyNDk4
-LDk4MTAxNDEwNl19
+eyJoaXN0b3J5IjpbLTExNzIzODY0NjYsLTIwMTg0MzcwOTQsLT
+k4NzEyNzk3MiwxNjk3MTA4Njc3LDY1NzI5NjA1Myw0MjU3MjQ5
+OCw5ODEwMTQxMDZdfQ==
 -->
