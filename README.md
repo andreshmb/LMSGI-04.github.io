@@ -41,12 +41,12 @@ Agregamos las características del ejemplo de _Steve Worswick_ traducidas a la l
 ![Archivo .aiml turismo](https://github.com/andreshmb/LMSGI-04.github.io/blob/master/img/aiml-turismo.jpg)
 
 
- 2. ### Segunda Tarea:
+ 2. ## Segunda Tarea:
 En esta segunda tarea hay que hacer un ***Chatbot*** sobre cualquier tema que nos interese o hacer modificaciones tanto sustanciales como ampliaciones de algunos de los ejemplos disponibles en ***Github*** en el repositorio de [Pandorabots](https://github.com/pandorabots/free-AIML).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NDMwNTgzNiw0MjQxNDAxNDYsLTExNz
+eyJoaXN0b3J5IjpbLTQ0MDkzMDUxOSw0MjQxNDAxNDYsLTExNz
 IzODY0NjYsLTIwMTg0MzcwOTQsLTk4NzEyNzk3MiwxNjk3MTA4
 Njc3LDY1NzI5NjA1Myw0MjU3MjQ5OCw5ODEwMTQxMDZdfQ==
 -->
