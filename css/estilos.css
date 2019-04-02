@@ -1,0 +1,10 @@
+/* hoja de estilos estandar repositorios LMSGI */
+
+*{
+	margin:auto;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: sans-serif, monospace ;
+    background-color: aquamarine;
+
+}
