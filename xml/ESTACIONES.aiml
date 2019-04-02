@@ -1,0 +1,60 @@
+<?xml version="1.0" encodEng="UTF-8"?> 
+<aiml version="2.0">
+
+<!-- Free software (c)2008 Square Bear. -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License -->
+<!-- as published by the Free Software Foundation. -->
+<!-- Complies with AIML 1.0.1 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation. -->
+<!-- ESTACIONs.aiml by Square Bear -->
+<!-- http://www.square-bear.co.uk -->
+<!-- Y traducido al español en su totalidad tanto el contenido como el nombre del fichero -->
+
+
+<category>
+<pattern>QUE TEMPORADA ES</pattern>
+<template>
+	<srai>EN QUE ESTACION ESTAMOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>CUAL ESTACION *</pattern>
+<template>
+	<srai>EN QUE ESTACION ESTAMOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>QUE ESTACION *</pattern>
+<template>
+	<srai>EN QUE ESTACION ESTAMOS</srai>
+</template>
+</category>
+
+<category>
+<pattern>EN QUE ESTACION ESTAMOS</pattern>
+<template>
+<think>
+	<set name="mes"><date format="%B"/></set>
+	<condition name="mes"> 
+		<li value="Enero"><set name="estacion">Mitad del Envierno</set><set name="estacion1">Disfrutando el Verano</set></li>
+		<li value="Febrero"><set name="estacion">Envierno</set><set name="estacion1">En Verano</set></li>
+		<li value="Marzo"><set name="estacion">Primavera</set><set name="estacion1">En Otoño</set></li>
+		<li value="Abril"><set name="estacion">Primavera</set><set name="estacion1">En pleno Otoño</set></li>
+		<li value="Mayo"><set name="estacion">Primavera</set><set name="estacion1">Justo saliendo del Otoño</set></li>
+		<li value="Junio"><set name="estacion">Principio del Verano</set><set name="estacion1">Aproximandose al Invierno</set></li>
+		<li value="Julio"><set name="estacion">Verano</set><set name="estacion1">En la mitad del Invierno</set></li>
+		<li value="Agosto"><set name="estacion">Verano</set><set name="estacion1">En Invierno</set></li>
+		<li value="Septiembre"><set name="estacion">Principio del Otoño</set><set name="estacion1">Aproximandose a la Primavera</set></li>
+		<li value="Octubre"><set name="estacion">Otoño</set><set name="estacion1">En Primavera</set></li>
+		<li value="Noviembreembre"><set name="estacion">Otoño</set><set name="estacion1">Cerca del final de la Primavera</set></li>
+		<li value="Diciembre"><set name="estacion">Invierno</set><set name="estacion1">En Verano</set></li>
+	</condition> 
+</think>
+Bueno, estamos actualmente en el mes de<get name="mes"/>,así que aquí en el hemisferio norte es<get name="estacion"/>.<br/>Aquellos países que se encuentran debajo del ecuador están<get name="estacion1"/>.
+</template>
+</category>
+
+</aiml>
