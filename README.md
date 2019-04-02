@@ -24,7 +24,11 @@ Una vez creado el primer bot, lo editamos:
 Desde File, creamos un nuevo archivo .aiml:
 
 ![Nuevo File .aiml](https://github.com/andreshmb/LMSGI-04.github.io/blob/master/img/file-new-aiml.jpg)
-Ahora creamos el archivo codificandolo como `<aiml version="2.0"`
+Ahora creamos el archivo codificandolo como:
+
+ `<?xml version="1.0" encoding="UTF-8"?>`
+
+  `<aiml version="2.0">
 
 
 
@@ -67,7 +71,7 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTk1NTA3LC0xMTcyMzg2NDY2LC0yMD
+eyJoaXN0b3J5IjpbMTY4NDYyMDgwLC0xMTcyMzg2NDY2LC0yMD
 E4NDM3MDk0LC05ODcxMjc5NzIsMTY5NzEwODY3Nyw2NTcyOTYw
 NTMsNDI1NzI0OTgsOTgxMDE0MTA2XX0=
 -->
