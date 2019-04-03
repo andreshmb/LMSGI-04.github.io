@@ -44,7 +44,8 @@ Una vez creado el bot y configuradas las categorías en el archivo _.aiml_ cread
 
 Aquí la dirección del vídeo en YouTube:
 
-[Chatbot Turibot](https://www.youtube.com/watch?v=q4npW5NG2qE)
+[Chatbot turistico "turibot" ](https://www.youtube.com/watch?v=q4npW5NG2qE).
+
 
 
  2. ## Segunda Tarea:
@@ -52,7 +53,7 @@ En esta segunda tarea hay que hacer un ***Chatbot*** sobre cualquier tema que no
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNjEzNzAyNCwtNDQwOTMwNTE5LDQyND
+eyJoaXN0b3J5IjpbLTk0MjczMTkwMCwtNDQwOTMwNTE5LDQyND
 E0MDE0NiwtMTE3MjM4NjQ2NiwtMjAxODQzNzA5NCwtOTg3MTI3
 OTcyLDE2OTcxMDg2NzcsNjU3Mjk2MDUzLDQyNTcyNDk4LDk4MT
 AxNDEwNl19
