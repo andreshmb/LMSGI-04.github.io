@@ -40,13 +40,16 @@ Agregamos las características del ejemplo de _Steve Worswick_ traducidas a la l
 
 ![Archivo .aiml turismo](https://github.com/andreshmb/LMSGI-04.github.io/blob/master/img/aiml-turismo.jpg)
 
+Una vez creado el bot y configuradas las categorías en el archivo _.aiml_ creado, se ha realizado un vídeo desde
+
 
  2. ## Segunda Tarea:
 En esta segunda tarea hay que hacer un ***Chatbot*** sobre cualquier tema que nos interese o hacer modificaciones tanto sustanciales como ampliaciones de algunos de los ejemplos disponibles en ***Github*** en el repositorio de [Pandorabots](https://github.com/pandorabots/free-AIML).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MDkzMDUxOSw0MjQxNDAxNDYsLTExNz
-IzODY0NjYsLTIwMTg0MzcwOTQsLTk4NzEyNzk3MiwxNjk3MTA4
-Njc3LDY1NzI5NjA1Myw0MjU3MjQ5OCw5ODEwMTQxMDZdfQ==
+eyJoaXN0b3J5IjpbMjAwOTU0NzI2OSwtNDQwOTMwNTE5LDQyND
+E0MDE0NiwtMTE3MjM4NjQ2NiwtMjAxODQzNzA5NCwtOTg3MTI3
+OTcyLDE2OTcxMDg2NzcsNjU3Mjk2MDUzLDQyNTcyNDk4LDk4MT
+AxNDEwNl19
 -->
