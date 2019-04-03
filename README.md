@@ -46,6 +46,7 @@ Aquí la dirección del vídeo en YouTube:
 
 [Chatbot turistico "turibot" ](https://www.youtube.com/watch?v=q4npW5NG2qE).
 
+----
 
 
  2. ## Segunda Tarea:
@@ -53,8 +54,8 @@ En esta segunda tarea hay que hacer un ***Chatbot*** sobre cualquier tema que no
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MjczMTkwMCwtNDQwOTMwNTE5LDQyND
-E0MDE0NiwtMTE3MjM4NjQ2NiwtMjAxODQzNzA5NCwtOTg3MTI3
-OTcyLDE2OTcxMDg2NzcsNjU3Mjk2MDUzLDQyNTcyNDk4LDk4MT
-AxNDEwNl19
+eyJoaXN0b3J5IjpbMTc3Mzk4ODk4LC00NDA5MzA1MTksNDI0MT
+QwMTQ2LC0xMTcyMzg2NDY2LC0yMDE4NDM3MDk0LC05ODcxMjc5
+NzIsMTY5NzEwODY3Nyw2NTcyOTYwNTMsNDI1NzI0OTgsOTgxMD
+E0MTA2XX0=
 -->
