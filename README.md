@@ -40,7 +40,11 @@ Agregamos las características del ejemplo de _Steve Worswick_ traducidas a la l
 
 ![Archivo .aiml turismo](https://github.com/andreshmb/LMSGI-04.github.io/blob/master/img/aiml-turismo.jpg)
 
-Una vez creado el bot y configuradas las categorías en el archivo _.aiml_ creado, se ha realizado un vídeo desde camtasia en donde se explica todo el proceso del ejemplo de Steve Worswick, así como la creación, configuración y prueba de funcionamiento del bot, pudie
+Una vez creado el bot y configuradas las categorías en el archivo _.aiml_ creado, se ha realizado un vídeo desde camtasia en donde se explica todo el proceso del ejemplo de Steve Worswick, así como la creación, configuración y prueba de funcionamiento del bot, en donde comprobamos como responde a nuestras preguntas.
+
+Aquí la dirección del vídeo en YouTube:
+
+[Chatbot Turibot](https://www.youtube.com/watch?v=q4npW5NG2qE)
 
 
  2. ## Segunda Tarea:
@@ -48,7 +52,7 @@ En esta segunda tarea hay que hacer un ***Chatbot*** sobre cualquier tema que no
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNzY4MDc2MywtNDQwOTMwNTE5LDQyND
+eyJoaXN0b3J5IjpbMTgxNjEzNzAyNCwtNDQwOTMwNTE5LDQyND
 E0MDE0NiwtMTE3MjM4NjQ2NiwtMjAxODQzNzA5NCwtOTg3MTI3
 OTcyLDE2OTcxMDg2NzcsNjU3Mjk2MDUzLDQyNTcyNDk4LDk4MT
 AxNDEwNl19
