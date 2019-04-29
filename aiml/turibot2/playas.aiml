@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- Categorias referentes a playas en diferentes lugares del territorio Español -->
+	<category>
+	    <pattern>^ PLAYAS ^ EN ESPAÑA</pattern>
+	    <template>
+	        Aqui tiene información sobre playas y pueblos costeros de España:
+	        <ol>
+	            <li>
+	            <link>
+	                <text>Andalucia</text>
+	                <url>http://cort.as/-HJSq</url>
+                </link>
+	            </li>
+	            <li>
+	                <link>
+	                    <text>Canarias</text>
+	                    <url>http://cort.as/-HJTd</url>
+                    </link>
+	            </li>
+	            <li>
+	                <link>
+	                    <text>Cantabria</text>
+	                    <url>http://cort.as/-HJTq</url>
+                    </link>
+	            </li>
+	            <li>
+	                <link>
+	                    <text>Cataluña</text>
+	                    <url>http://cort.as/-HJTu</url>
+                    </link>
+	            </li>
+	            <li>
+	                <link>
+	                    <text>Ceuta</text>
+	                    <url>http://cort.as/-HJUJ</url>
+                    </link>
+	            </li>
+	            <li>
+	                <link>
+	                    <text>Comunidat Valenciana</text>
+	                    <url>http://cort.as/-HJUs</url>
+                    </link>
+	            </li>
+	            <li>
+	                <link>
+	                    <text>Galicia</text>
+	                    <url>http://cort.as/-HJV4</url>
+                    </link>
+	            </li>
+	            <li>
+	                <link>
+	                    <text>Illes Balears</text>
+	                    <url>http://cort.as/-HJVE</url>
+                    </link>
+	            </li>
+	            <li>
+	                <link>
+	                    <text>Melilla</text>
+	                    <url>http://cort.as/-HJVK</url>
+                    </link>
+	            </li>
+	            <li>
+	                <link>
+	                    <text>Pais Vasco</text>
+	                    <url>http://cort.as/-HJVY</url>
+                    </link>
+	            </li>
+	            <li>
+	                <link>
+	                    <text>Principado de Asturias</text>
+	                    <url>http://cort.as/-HJVf</url>
+                    </link>
+	            </li>
+	            <li>
+	                <link>
+	                    <text>Region de Murcia</text>
+	                    <url>http://cort.as/-HJVn</url>
+                    </link>
+	            </li>
+            </ol>
+	    </template>
+    </category>
+    
+    <!--Categoría de las diferentes poblaciones de las Islas Baleares vinculadas tanto a un set como a un mapa-->
+    
+    <category>
+        <pattern>^ PLAYAS DE <set>playasmallorca</set></pattern>
+        <template>
+            Aqui tiene informacion de las playas de <formal><star index="2" /></formal> en las <formal>islas baleares</formal>.
+            <button>
+                <text>Playas de <star index="2"/></text>
+                <url><map name="playasmallorca"><star index="2"/></map></url>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>^ PLAYA ^ DE *</pattern>
+        <template><srai>^ playas de <star index="3"/></srai></template> 
+    </category>
+     <category>
+        <pattern>^ PLAYA ^ EN *</pattern>
+        <template><srai>^ playas de <star index="3"/></srai></template> 
+    </category>
+    
+    <!--Categoria sobre las costas españolas en carrusel-->
+    <category>
+        <pattern>^ COSTA ^</pattern>
+        <template>
+            Aqui tiene las:
+            <br/>
+            Costas Españolas
+              <image>https://www.spain.info/export/sites/spaininfo/comun/cabeceras/conil-t1100634.jpg</image>
+              <ul>
+                  <li>
+                      <link>
+                          <text><formal>costa de almeria</formal></text>
+                          <url>https://www.spain.info/es/que-quieres/destinos-playa/costas/costa_de_almeria.html</url>
+                      </link>
+                  </li>
+                  <li>
+                      <link>
+                          <text><formal>costa blanca</formal></text>
+                          <url>https://www.spain.info/es/que-quieres/destinos-playa/costas/costa_blanca.html</url>
+                      </link>
+                  </li>
+                  <li> 
+                      <link>
+                          <text><formal>costa dorada</formal></text>
+                          <url>https://www.spain.info/es/que-quieres/destinos-playa/costas/costa_dorada.html</url>
+                      </link></li>
+                  <li>
+                      <link>
+                          <text><formal>costa de cantabria</formal></text>
+                          <url>https://www.spain.info/es/que-quieres/destinos-playa/costas/costa_de_cantabria.html</url>
+                      </link>
+                  </li>
+                  <li>
+                      <link>
+                          <text><formal>costa del sol</formal></text>
+                          <url>https://www.spain.info/es/que-quieres/destinos-playa/costas/costa_del_sol.html</url>
+                      </link>
+                  </li>
+                  <li>
+                      <link>
+                          <text><formal>costa de la luz</formal></text>
+                          <url>https://www.spain.info/es/que-quieres/destinos-playa/costas/costa_de_la_luz.html</url>
+                      </link>
+                  </li>
+                  <li>
+                      <link>
+                          <text><formal>costa de barcelona</formal></text>
+                          <url>https://www.spain.info/es/que-quieres/destinos-playa/costas/costa_de_barcelona.html</url>
+                      </link>
+                  </li>
+                  <li>
+                      <link>
+                          <text><formal>costa de valencia</formal></text>
+                          <url>https://www.spain.info/es/que-quieres/destinos-playa/costas/costa_de_valencia.html</url>
+                      </link>
+                  </li>
+                  <li>
+                      <link>
+                          <text><formal>costa da morte</formal></text>
+                          <url>https://www.spain.info/es/que-quieres/destinos-playa/costas/costa_da_morte.html</url>
+                      </link>
+                  </li>
+                  <li>
+                      <link>
+                          <text><formal>costa cálida</formal></text>
+                          <url>https://www.spain.info/es/que-quieres/destinos-playa/costas/costa_calida.html</url>
+                      </link>
+                  </li>
+                  <li>
+                      <link>
+                          <text><formal>costa tropical</formal></text>
+                          <url>https://www.spain.info/es/que-quieres/destinos-playa/costas/costa_tropical.html</url>
+                      </link>
+                  </li>
+                  <li>
+                      <link>
+                          <text><formal>golfo ártabro</formal></text>
+                          <url>https://www.spain.info/es/que-quieres/destinos-playa/costas/golfo_artabro.html</url>
+                      </link>
+                  </li>
+                  <li>
+                      <link>
+                          <text><formal>rías altas</formal></text>
+                          <url>https://www.spain.info/es/que-quieres/destinos-playa/costas/rias_altas.html</url>
+                      </link>
+                  </li>
+                  <li>
+                      <link>
+                          <text><formal>islas canarias</formal></text>
+                          <url>https://www.spain.info/es/que-quieres/destinos-playa/costas/islas_canarias.html</url>
+                      </link>
+                  </li>
+                  <li>
+                      <link>
+                          <text><formal>islas baleares</formal></text>
+                          <url>https://www.spain.info/es/que-quieres/destinos-playa/costas/islas_baleares.html</url>
+                      </link>
+                  </li>
+                  <li>
+                      <link>
+                          <text><formal>mariña lucense</formal></text>
+                          <url>https://www.spain.info/es/que-quieres/destinos-playa/costas/marina-lucense.html</url>
+                      </link>
+                  </li>
+                  <li>
+                      <link>
+                          <text><formal>rías baixas</formal></text>
+                          <url>https://www.spain.info/es/que-quieres/destinos-playa/costas/rias_baixas.html</url>
+                      </link>
+                  </li>
+                  <li>
+                      <link>
+                          <text><formal>costa vasca</formal></text>
+                          <url>https://www.spain.info/es/que-quieres/destinos-playa/costas/costa_vasca.html</url>
+                      </link>
+                  </li>
+                    <li>
+                      <link>
+                          <text><formal>costa verde</formal></text>
+                          <url>https://www.spain.info/es/que-quieres/destinos-playa/costas/costa_verde.html</url>
+                      </link>
+                  </li>
+                    <li>
+                      <link>
+                          <text><formal>costa de castellón</formal></text>
+                          <url>https://www.spain.info/es/que-quieres/destinos-playa/costas/costa_del_azahar.html</url>
+                      </link>
+                  </li>
+                    <li>
+                      <link>
+                          <text><formal>costa brava</formal></text>
+                          <url>https://www.spain.info/es/que-quieres/destinos-playa/costas/costa_brava.html</url>
+                      </link>
+                  </li>
+              </ul>
+        </template>
+    </category>
+    <category>
+        <pattern>^ COSTAS ^</pattern>
+        <template><srai>^ COSTA ^</srai></template>
+    </category>
+
+</aiml>

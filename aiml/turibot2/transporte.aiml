@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- Categorias referentes al transporte en Mallorca lineas de bus y tren -->
+	<category>
+	    <pattern>^ AUTOBUS ^</pattern>
+	    <template>
+	        Aquí tiene el mapa de las lineas de bus, tren, metro, emt, taxi, etc.
+	        <image>https://www.tib.org/documents/30683/0/mapa_mallorca.png/0d61ada3-92a0-7867-5aea-0d8f6d7ef36e?t=1491556542971</image>
+            <button>
+                <text></text>
+                <url></url>
+            </button>
+	    </template>
+    </category>
+    <category>
+        <pattern>^ VIAJAR ^ DE<set>busmallorca</set></pattern>
+        <template>
+            Aqui tiene informacion para viajar en bus de<formal><star index="3"/></formal> y viceversa.
+            <button>
+                <text>Autobus para ir de <star index="3"/></text>
+                <url><map name="busmallorca"><star index="3"/></map></url>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>^ VIAJAR ^</pattern>
+        <template><srai>^ VIAJAR ^ DE <star index="3"/></srai></template>
+    </category>
+      <category>
+        <pattern>^ BUS ^</pattern>
+        <template><srai>^ VIAJAR ^ DE <star index="3"/></srai></template>
+    </category>
+    
+    <!--Categoria referente a viajar hacia los mercados mas importantes-->
+    
+    <category>
+        <pattern>^ MERCADO ^ DE<set>busmallorca</set></pattern>
+        <template>
+            Aqui tiene informacion para viajar al mercado de<formal><star index="3"/></formal>
+            <button>
+                <text>Autobus para ir al mercado de <star index="3"/></text> y viceversa.
+                <url><map name="busmallorca"><star index="3"/></map></url>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>^ MERCADO ^</pattern>
+        <template><srai>^ MERCADO ^ DE <star index="3"/></srai></template>
+    </category>
+        <category>
+        <pattern>^ MERCADO</pattern>
+        <template><srai>^ MERCADO ^ DE <star index="3"/></srai></template>
+    </category>
+    
+    <!--Categoria referente a viajar en tren en Mallorca-->
+    
+    <category>
+        <pattern>^ TREN ^ DE<set>trenmallorca</set></pattern>
+        <template>
+            Aqui tiene informacion para viajar en tren de<formal><star index="3"/></formal> y viceversa.
+            <button>
+                <text>Tren para ir de <star index="3"/></text>
+                <url><map name="trenmallorca"><star index="3"/></map></url>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>^ TREN ^</pattern>
+        <template><srai>^ TREN ^ DE <star index="3"/></srai></template>
+    </category>
+      <category>
+        <pattern>^ TREN</pattern>
+        <template><srai>^ TREN ^ DE <star index="3"/></srai></template>
+    </category>
+    
+    <!--Categoria referente al metro en Mallorca-->
+    
+    <category>
+        <pattern>^ METRO ^ DE<set>trenmallorca</set></pattern>
+        <template>
+            Aqui tiene informacion para viajar en metro de<formal><star index="3"/></formal> y viceversa.
+            <button>
+                <text>Metro para ir de <star index="3"/></text>
+                <url><map name="metromallorca"><star index="3"/></map></url>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>^ METRO ^</pattern>
+        <template><srai>^ METRO ^ DE <star index="3"/></srai></template>
+    </category>
+      <category>
+        <pattern>^ METRO</pattern>
+        <template><srai>^ METRO ^ DE <star index="3"/></srai></template>
+    </category>
+    
+    <!--Categorias lineas de bus de Palma de Mallorca-->
+    
+    <category>
+        <pattern>^ BUS ^ PALMA</pattern>
+        <template>
+            Aqui tiene el acceso a la web de la Empresa Municipal de Transportes de Palma.<br />
+            En donde encontrará toda la información de las lineas para desplazarce por la ciudad.
+            <button>
+                <text>Linea Bus Palma</text>
+                <url>http://www.emtpalma.cat/es/lineas-horarios</url>
+            </button>
+        </template>
+    </category>
+    
+    <!--Categoria con informacion de los taxis en la isla de Mallorca-->
+    
+    <category>
+        <pattern>^ TAXI ^</pattern>
+        <template>
+            Aqui tiene informacion de las tarifas de taxi de Palma de Mallorca.<br />
+            En donde encontrará toda la información y los telefonos de taxi de las diferentes compañias y zonas.
+            <button>
+                <text>Taxis en Mallorca</text>
+                <url>https://www.tib.org/es/web/ctm/taxi</url>
+            </button>
+        </template>
+    </category>
+    <!--Prueba video enlace directo
+    <category>
+        <pattern>video</pattern>
+        <template>
+            <video>https://andreshmb.github.io/LMSGI-O2/video/Audi_Q7.mp4</video>
+        </template>
+    </category> no funciona-->
+</aiml>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- Categorias referentes a hoteles, restaurantes, sitios de interes, playas en Mallorca -->
+	<!-- Enlace a la pagina abcmallorca en donde tiene informacion actualizada de Mallorca -->
+	
+	<category>
+	    <pattern>^ HOTELES ^ MALLORCA</pattern>
+	    <template>
+	        Aqui tiene informacion de los hoteles mas relevantes de Mallorca,<br/>
+	        tambien puede buscar por sus estrellas desde 1 a 5 estrellas.
+	        <button>
+	            <text>Informacion General</text>
+	            <url>https://www.abc-mallorca.es/hoteles/</url>
+            </button>
+            <button>
+                <text>Zona Palma</text>
+                <url>https://www.abc-mallorca.es/hotel-results/?region=palma-es</url>
+            </button>
+            <button>
+                <text>Zona Central</text>
+                <url>https://www.abc-mallorca.es/hotel-results/?region=central-es</url>
+            </button>
+            <button>
+                <text>Zona Sur-Oeste</text>
+                <url>https://www.abc-mallorca.es/hotel-results/?region=suroeste</url>
+            </button>
+            <button>
+                <text>Zona Sur-Este</text>
+                <url>https://www.abc-mallorca.es/hotel-results/?region=sureste</url>
+            </button>
+            <button>
+                <text>Zona Nor-Oeste</text>
+                <url>https://www.abc-mallorca.es/hotel-results/?region=noroeste</url>
+            </button>
+            <button>
+                <text>Zona Nor-Este</text>
+                <url>https://www.abc-mallorca.es/hotel-results/?region=noreste</url>
+            </button>
+	    </template>
+    </category>
+    
+	<!--Hoteles en toda España por categoria de estrellas, desde 1 hasta 5 estrellas.-->
+	
+	<category>
+	    <pattern>^ HOTELES DE <set>tipohoteles</set></pattern>
+	    <template>
+	        Aqui tiene información de hoteles de <star index="2"/> en el territorio Español.
+	        <button>
+	            <text>Hoteles de <star index="2"/></text>
+	            <url><map name="tipohoteles"><star index="2"/></map></url>
+            </button>
+	    </template>
+    </category>
+    
+    <!--Lugares para visitar en Mallorca-->
+    
+    <category>
+        <pattern>^ LUGARES ^ MALLORCA</pattern>
+        <template>
+            Aqui tiene información de los lugares en Mallorca:<br/>
+            Seleccione la zona que mas desee:
+            <button>
+                <text>Guia de viaje Google</text>
+                <url>http://cort.as/-HQ1D</url>
+            </button>
+            <button>
+                <text>Palma</text>
+                <url>https://www.abc-mallorca.es/search-place/?region=palma-es</url>
+            </button>
+            <button>
+                <text>Centro de la isla</text>
+                <url>https://www.abc-mallorca.es/search-place/?region=central-es</url>
+            </button>
+            <button>
+                <text>Sur-Oeste</text>
+                <url>https://www.abc-mallorca.es/search-place/?region=suroeste</url>
+            </button>
+            <button>
+                <text>Sur-Este</text>
+                <url>https://www.abc-mallorca.es/search-place/?region=sureste</url>
+            </button>
+            <button>
+                <text>Nor-Oeste</text>
+                <url>https://www.abc-mallorca.es/search-place/?region=noroeste</url>
+            </button>
+            <button>
+                <text>Nor-Este</text>
+                <url>https://www.abc-mallorca.es/search-place/?region=noreste</url>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>QUE SE PUEDE VISITAR EN *</pattern>
+        <template><srai>^ lugares ^ mallorca</srai></template>
+    </category>
+    <category>
+        <pattern>QUE PUEDO VISITAR EN *</pattern>
+        <template><srai>^ lugares ^ mallorca</srai></template>
+    </category>
+      <category>
+        <pattern>* VER EN MALLORCA</pattern>
+        <template><srai>^ lugares ^ mallorca</srai></template>
+    </category>
+        <category>
+        <pattern>* VERSE EN MALLORCA</pattern>
+        <template><srai>^ lugares ^ mallorca</srai></template>
+    </category>
+    
+    <!--Restaurantes para comer en Mallorca-->
+    
+    <category>
+        <pattern>^ COMER ^ MALLORCA</pattern>
+        <template>
+            Aquí puede escoger la zona en donde se encuentre,<br/>y obtendrá información para comer.<br/>
+            Tambien puede pedir informacion sobre restaurantes de comida:<br/>
+            Asiatica, Internacional, Italiana, Mallorquina, Mediterranea o Tapas.
+            <button>
+                <text>Palma</text>
+                <url>https://www.abc-mallorca.es/search-results/?region=palma-es</url>
+            </button>
+            <button>
+                <text>Interior de la Isla</text>
+                <url>https://www.abc-mallorca.es/search-results/?region=central-es</url>
+            </button>
+            <button>
+                <text>Sur-Oeste</text>
+                <url>https://www.abc-mallorca.es/search-results/?region=suroeste</url>
+            </button>
+            <button>
+                <text>Sur-Este</text>
+                <url>https://www.abc-mallorca.es/search-results/?region=sureste</url>
+            </button>
+            <button>
+                <text>Nor-Oeste</text>
+                <url>https://www.abc-mallorca.es/search-results/?region=noroeste</url>
+            </button>
+            <button>
+                <text>Nor-Este</text>
+                <url>https://www.abc-mallorca.es/search-results/?region=noreste</url>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>^ RESTAURANTES DE COMIDA <set>tiporestaurant</set></pattern>
+        <template>
+            Aqui tiene los restaurentes de comida <star index="2"/> en Mallorca.
+            <button>
+                <text>Comida <star index="2"/></text>
+                <url><map name="tiporestaurant"><star index="2"/></map></url>
+            </button>
+        </template>
+    </category>
+    <category>
+        <pattern>QUE SE PUEDE COMER EN *</pattern>
+        <template><srai>^ COMER ^ MALLORCA</srai></template>
+    </category>
+    <category>
+        <pattern>QUE LUGAR HAY PARA COMER EN *</pattern>
+        <template><srai>^ COMER ^ MALLORCA</srai></template>
+    </category>
+    <category>
+        <pattern>* COMER</pattern>
+        <template><srai>^ COMER ^ MALLORCA</srai></template>
+    </category>
+      <category>
+        <pattern>* HAMBRE</pattern>
+        <template><srai>^ COMER ^ MALLORCA</srai></template>
+    </category>
+      <category>
+        <pattern>* COMIDA *</pattern>
+        <template><srai>^ COMER ^ MALLORCA</srai></template>
+    </category>
+    
+    <!--Información meteorologica de las poblaciones mas importantes de Mallorca-->
+    
+	<category>
+	<pattern>^ TIEMPO ^ EN <set>meteomallorca</set></pattern>
+	<template>
+	    La previsión del tiempo en <star index="3"/> es:<br/>
+            <button>
+                <text>Pulsa Aqui</text>
+                <url><map name="meteomallorca"><star index="3"/></map></url>
+            </button>
+	</template>
+    </category>
+    <category>
+        <pattern>^ METEOROLOGIA EN *</pattern>
+        <template><srai>^ TIEMPO EN <star index="3"/></srai></template>
+    </category>
+     <category>
+        <pattern>^ CLIMATOLOGIA EN *</pattern>
+        <template><srai>^ TIEMPO EN <star index="3"/></srai></template>
+    </category>
+    <category>
+        <pattern>^ TEMPERATURA EN *</pattern>
+        <template><srai>^ TIEMPO EN <star index="3"/></srai></template>
+    </category>
+	 <category>
+        <pattern>^ FORECAST EN *</pattern>
+        <template><srai>^ TIEMPO ^ EN <star index="3"/></srai></template>
+    </category>
+     <category>
+        <pattern>^ CLIMA EN *</pattern>
+        <template><srai>^ TIEMPO EN <star index="3"/></srai></template>
+    </category>
+</aiml>

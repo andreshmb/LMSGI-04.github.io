@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- categoria de entrada informando de que trata el bot y atendiendo a saludos y despedida -->
+	<category>
+	    <pattern>HOLA</pattern>
+	    <template>
+	        	        <image>https://upload.wikimedia.org/wikipedia/commons/8/8d/Earth-Erde.jpg</image>
+	        	   Hola, soy Turibot:<br/>
+	        	   Te puedo ayudar con información sobre:<br/>
+	        	   Lugares, sus localizaciones, meteorología, servicios, viajes, vacaciones, playas, etc, etc.
+	    </template>
+	</category>
+
+    <category><pattern>QUE TAL</pattern><template><srai>HOLA</srai></template></category>
+    <category><pattern>HI</pattern><template><srai>HOLA</srai></template></category>
+    <category><pattern>HEY</pattern><template><srai>HOLA</srai></template></category>
+    <category><pattern>HELLO</pattern><template><srai>HOLA</srai></template></category>
+    <category><pattern>ALO</pattern><template><srai>HOLA</srai></template></category>
+    
+</aiml>

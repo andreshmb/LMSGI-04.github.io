@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- categoria de entrada informando de que trata el bot y atendiendo a saludos y despedida -->
+    <category>
+        <pattern>ADIOS</pattern>
+        <template>
+            Adios, gracias por tu visita.
+            <image>https://gifimage.net/wp-content/uploads/2017/09/adios-mano-gif-4.gif</image>
+        </template>
+    </category>
+    
+    <category><pattern>HASTA LA VISTA</pattern><template><srai>ADIOS</srai></template></category>
+    <category><pattern>ADIEU</pattern><template><srai>ADIOS</srai></template></category>
+    <category><pattern>ADEU</pattern><template><srai>ADIOS</srai></template></category>
+    <category><pattern>NOS VEMOS</pattern><template><srai>ADIOS</srai></template></category>
+    <category><pattern>HASTA LUEGO</pattern><template><srai>ADIOS</srai></template></category>
+    <category><pattern>GOODBYE</pattern><template><srai>ADIOS</srai></template></category>
+    <category><pattern>CHAO</pattern><template><srai>ADIOS</srai></template></category>
+    <category><pattern>BYE BYE</pattern><template><srai>ADIOS</srai></template></category>
+    <category><pattern>SEE YOU</pattern><template><srai>ADIOS</srai></template></category>
+
+    <category>
+        <pattern>GRACIAS</pattern>
+        <template>
+            De nada, hasta la proxima vez.<br/>
+            Saludos...
+          </template>
+    </category>
+    
+
+</aiml>
