@@ -38,6 +38,18 @@
             </button>
 	    </template>
     </category>
+    <category>
+        <pattern>* HOTELES * PALMA</pattern>
+        <template><srai>^ HOTELES ^ MALLORCA</srai></template>
+    </category>
+    <category>
+        <pattern>* ALOJARME ^</pattern>
+        <template><srai>^ HOTELES ^ MALLORCA</srai></template>
+    </category>
+        <category>
+        <pattern>* ALOJAR ^</pattern>
+        <template><srai>^ HOTELES ^ MALLORCA</srai></template>
+    </category>
     
 	<!--Hoteles en toda España por categoria de estrellas, desde 1 hasta 5 estrellas.-->
 	
@@ -141,11 +153,11 @@
         </template>
     </category>
     <category>
-        <pattern>^ RESTAURANTES DE COMIDA <set>tiporestaurant</set></pattern>
+        <pattern>^ COMIDA <set>tiporestaurant</set></pattern>
         <template>
-            Aqui tiene los restaurentes de comida <star index="2"/> en Mallorca.
+            Aqui tiene los restaurentes de comida <formal><star index="2"/></formal> en Mallorca.
             <button>
-                <text>Comida <star index="2"/></text>
+                <text>Comida <formal><star index="2"/></formal></text>
                 <url><map name="tiporestaurant"><star index="2"/></map></url>
             </button>
         </template>
@@ -159,7 +171,7 @@
         <template><srai>^ COMER ^ MALLORCA</srai></template>
     </category>
     <category>
-        <pattern>* COMER</pattern>
+        <pattern>* COMER *</pattern>
         <template><srai>^ COMER ^ MALLORCA</srai></template>
     </category>
       <category>
@@ -184,23 +196,35 @@
 	</template>
     </category>
     <category>
-        <pattern>^ METEOROLOGIA EN *</pattern>
-        <template><srai>^ TIEMPO EN <star index="3"/></srai></template>
+        <pattern>^ METEOROLOGIA DE ^</pattern>
+        <template><srai>^ TIEMPO ^ EN <star index="2"/></srai></template>
+    </category>
+        <category>
+        <pattern>^ METEOROLOGIA EN ^</pattern>
+        <template><srai>^ TIEMPO ^ EN <star index="2"/></srai></template>
     </category>
      <category>
         <pattern>^ CLIMATOLOGIA EN *</pattern>
-        <template><srai>^ TIEMPO EN <star index="3"/></srai></template>
-    </category>
+        <template><srai>^ TIEMPO ^ EN <star index="2"/></srai></template>
+    </category>>
     <category>
-        <pattern>^ TEMPERATURA EN *</pattern>
-        <template><srai>^ TIEMPO EN <star index="3"/></srai></template>
+        <pattern>^ TEMPERATURA ^ EN *</pattern>
+        <template><srai>^ TIEMPO ^ EN <star index="3"/></srai></template>
     </category>
 	 <category>
         <pattern>^ FORECAST EN *</pattern>
-        <template><srai>^ TIEMPO ^ EN <star index="3"/></srai></template>
+        <template><srai>^ TIEMPO ^ EN <star index="2"/></srai></template>
     </category>
      <category>
         <pattern>^ CLIMA EN *</pattern>
+        <template><srai>^ TIEMPO EN <star index="2"/></srai></template>
+    </category>
+    <category>
+        <pattern>^ CLIMA DE ^</pattern>
+        <template><srai>^ TIEMPO EN <star index="2"/></srai></template>
+    </category>
+    <category>
+        <pattern>^ CLIMA ^ TIENE ^</pattern>
         <template><srai>^ TIEMPO EN <star index="3"/></srai></template>
     </category>
 </aiml>

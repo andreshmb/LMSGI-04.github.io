@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>
+        <random>
+            <li>No tengo respuesta para esa pregunta.</li>
+            <li>Quieres que te cuente mas sobre ese lugar.</li>
+            <li>Quieres que te muestre el mapa de ese lugar.</li>
+            <li>Quieres saber el clima que hace.</li>
+            <li>Lo siento no se que decir</li>
+            <li>Puedes repetir por favor</li>
+        </random>
+    </template>
+  </category>
+</aiml>

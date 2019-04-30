@@ -36,10 +36,14 @@
 	</category>
 	<category>
 	    <pattern>SI HABLAME DE *</pattern>
-	    <that>Quieres que te hable de algo</that>
+	    <that>Le puedo hablar de algo</that>
 	    <template><srai>HABLAME DE <star/></srai></template>
     </category>
-	
+	<category>
+	    <pattern>SI DE ^</pattern>
+	    <that>Le puedo hablar de algo</that>
+	    <template><srai>HABLAME DE <star/></srai></template>
+    </category>
 		<!-- categorias con contexto referentes a localizaciones -->
 		
 	<category>
@@ -90,25 +94,24 @@
 	</category>
 	<category>
 	    <pattern>^ MUESTRAME ^ DE *</pattern>
-	    <that>Quieres que te muestre el mapa de algun lugar</that>
 	    <template><srai>muestrame el mapa de <star index="3"/></srai></template>
     </category>
 	
 		<!-- categorias con contexto referentes a la meteorologia de diferentes lugares -->
 		
 	<category>
-	    <pattern>QUE TIEMPO HACE EN *</pattern>
+	    <pattern>^ QUE TIEMPO HACE EN *</pattern>
 	    <template>
-	        <think><set name="tiempo"><star/></set></think>
-	        Aqui tiene la previsión meteorológica de<br/>
+	        <think><set name="tiempo"><star index="2"/>/></set></think>
+	        Aqui tiene la previsión meteorológica de:
 	            <formal>
-	                <star/>
+	                <star index="2"/>
 	            </formal>
 	            .
 	    
 	        <button>
 	            <text>Pulse Aquí</text>
-	            <url>https://es.weather-forecast.com/locations/<star/>/forecasts/latest</url>
+	            <url>https://es.weather-forecast.com/locations/<star index="2"/>/forecasts/latest</url>
             </button>
 	    </template>
 	</category>

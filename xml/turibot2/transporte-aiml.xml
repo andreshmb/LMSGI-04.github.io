@@ -13,45 +13,38 @@
 	    </template>
     </category>
     <category>
-        <pattern>^ VIAJAR ^ DE<set>busmallorca</set></pattern>
+        <pattern>^ VIAJAR DE<set>busmallorca</set></pattern>
         <template>
-            Aqui tiene informacion para viajar en bus de<formal><star index="3"/></formal> y viceversa.
+            Aqui tiene informacion para viajar en bus de<formal><star index="2"/></formal> y viceversa.
             <button>
-                <text>Autobus para ir de <star index="3"/></text>
-                <url><map name="busmallorca"><star index="3"/></map></url>
+                <text>Autobus para ir de <star index="2"/></text>
+                <url><map name="busmallorca"><star index="2"/></map></url>
             </button>
         </template>
     </category>
     <category>
-        <pattern>^ VIAJAR ^</pattern>
-        <template><srai>^ VIAJAR ^ DE <star index="3"/></srai></template>
+        <pattern>^ VIAJAR</pattern>
+        <template><srai>^ autobus ^</srai></template>
     </category>
       <category>
         <pattern>^ BUS ^</pattern>
-        <template><srai>^ VIAJAR ^ DE <star index="3"/></srai></template>
+        <template><srai>^ autobus ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ TRANSPORTE</pattern>
+        <template><srai>^ autobus ^</srai></template>
     </category>
     
     <!--Categoria referente a viajar hacia los mercados mas importantes-->
-    
     <category>
-        <pattern>^ MERCADO ^ DE<set>busmallorca</set></pattern>
+        <pattern>^ MERCADO ^</pattern>
         <template>
-            Aqui tiene informacion para viajar al mercado de<formal><star index="3"/></formal>
             <button>
-                <text>Autobus para ir al mercado de <star index="3"/></text> y viceversa.
-                <url><map name="busmallorca"><star index="3"/></map></url>
+                <text>Principales Mercados en Mallorca</text>
+                <url>https://www.tib.org/es/web/ctm/autobus/seccio/800</url>
             </button>
         </template>
     </category>
-    <category>
-        <pattern>^ MERCADO ^</pattern>
-        <template><srai>^ MERCADO ^ DE <star index="3"/></srai></template>
-    </category>
-        <category>
-        <pattern>^ MERCADO</pattern>
-        <template><srai>^ MERCADO ^ DE <star index="3"/></srai></template>
-    </category>
-    
     <!--Categoria referente a viajar en tren en Mallorca-->
     
     <category>
@@ -66,11 +59,16 @@
     </category>
     <category>
         <pattern>^ TREN ^</pattern>
-        <template><srai>^ TREN ^ DE <star index="3"/></srai></template>
+        <template>
+          <button>
+              <text>Informacion trenes Mallorca</text>
+              <url>https://www.tib.org/es/web/ctm/tren</url>
+          </button>
+        </template>
     </category>
       <category>
-        <pattern>^ TREN</pattern>
-        <template><srai>^ TREN ^ DE <star index="3"/></srai></template>
+        <pattern>TREN ^</pattern>
+        <template><srai>^ TREN ^</srai></template>
     </category>
     
     <!--Categoria referente al metro en Mallorca-->

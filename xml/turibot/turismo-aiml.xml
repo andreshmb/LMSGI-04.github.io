@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-    
 	<!-- categorias con contexto y referentes a informacion sobre lugares -->
-	
 	<category>
 	  <pattern>HABLAME DE *</pattern>
 	  <template>
@@ -34,14 +32,7 @@
 	        <srai>hablame de <star/></srai>
 	    </template>
 	</category>
-	<category>
-	    <pattern>SI HABLAME DE *</pattern>
-	    <that>Quieres que te hable de algo</that>
-	    <template><srai>HABLAME DE <star/></srai></template>
-    </category>
-	
 		<!-- categorias con contexto referentes a localizaciones -->
-		
 	<category>
 	    <pattern>MUESTRAME EL MAPA DE *</pattern>
 	    <template>
@@ -88,14 +79,7 @@
 	        <srai>muestrame el mapa de <star/></srai>
 	    </template>
 	</category>
-	<category>
-	    <pattern>^ MUESTRAME ^ DE *</pattern>
-	    <that>Quieres que te muestre el mapa de algun lugar</that>
-	    <template><srai>muestrame el mapa de <star index="3"/></srai></template>
-    </category>
-	
 		<!-- categorias con contexto referentes a la meteorologia de diferentes lugares -->
-		
 	<category>
 	    <pattern>QUE TIEMPO HACE EN *</pattern>
 	    <template>
@@ -103,9 +87,8 @@
 	        Aqui tiene la previsión meteorológica de<br/>
 	            <formal>
 	                <star/>
-	            </formal>
+	            </formal> 
 	            .
-	    
 	        <button>
 	            <text>Pulse Aquí</text>
 	            <url>https://es.weather-forecast.com/locations/<star/>/forecasts/latest</url>

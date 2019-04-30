@@ -1,0 +1,1 @@
+[["palma a la universidad", "https:\/\/www.tib.org\/es\/web\/ctm\/metro\/linia\/M1"], ["palma a la UIB", "https:\/\/www.tib.org\/es\/web\/ctm\/metro\/linia\/M1"], ["palma a marratxi", "https:\/\/www.tib.org\/es\/web\/ctm\/metro\/linia\/M2"]]
