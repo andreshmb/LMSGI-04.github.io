@@ -52,6 +52,9 @@ Aquí la dirección del vídeo en YouTube:
  2. ## Segunda Tarea:
 En esta segunda tarea hay que hacer un ***Chatbot*** sobre cualquier tema que nos interese o hacer modificaciones tanto sustanciales como ampliaciones de algunos de los ejemplos disponibles en ***Github*** en el repositorio de [Pandorabots](https://github.com/pandorabots/free-AIML).
 
+---
+He decidido mejorar el chatbot de la primera tarea agregando mas archivos .aiml, en donde he creado mapas .maps y set .set para poder ofrecer la prevision meteorologica de las diferentes poblaciones de las Islas Baleares, en donde en este caso se puede usar palabras compuestas como Palma de Mallorca, la cual daba error en el archivo .aiml del chatbot del ejercicio 1 en donde lo enlazabamos a la .url de foreccast
+
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTk0NjU3OTE2MywtNDQwOTMwNTE5LDQyND
