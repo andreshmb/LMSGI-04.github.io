@@ -97,8 +97,11 @@ Vemos el archivo `.sets` meteomallorca vinculado al archivo `.maps` meteomallorc
 
 
 >En este segundo ejercicio, hemos cargado las dos partes del video en este repositorio, ya que para Youtube eran demasiado grandes.
->>[1ª parte del video](https://github.com/andreshmb/LMSGI-04.github.io/blob/master/video-mp4/turibot2-1/turibot2-1.mp4)
-[2ª parte del video](https://github.com/andreshmb/LMSGI-04.github.io/blob/master/video-mp4/turibot2-2/turibot2-2.mp4)
+>>
+[1ª parte del video](https://github.com/andreshmb/LMSGI-04.github.io/blob/master/video-mp4/turibot2-1/turibot2-1.mp4).
+
+
+[2ª parte del video](https://github.com/andreshmb/LMSGI-04.github.io/blob/master/video-mp4/turibot2-2/turibot2-2.mp4).
 
 
 <!--stackedit_data:
