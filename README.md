@@ -96,7 +96,7 @@ Vemos el archivo `.sets` meteomallorca vinculado al archivo `.maps` meteomallorc
 ![archivo `.sets` meteomallorca](https://github.com/andreshmb/LMSGI-04.github.io/blob/master/img/turibot2-sets-meteomallorca.jpg)
 
 
-
+>En este segundo ejercicio, hemos cargado las dos partes del video en el repositorio este, ya que para Youtube eran demasiado grandes.
 
 
 <!--stackedit_data:
