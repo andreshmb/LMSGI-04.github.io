@@ -55,6 +55,7 @@ En esta segunda tarea hay que hacer un ***Chatbot*** sobre cualquier tema que no
 He decidido mejorar el ***chatbot*** de la primera tarea agregando mas archivos *.aiml*, en donde he creado mapas *.maps* y sets *.sets* para poder ofrecer la prevision meteorologica de las diferentes poblaciones de las Islas Baleares, en donde en este caso se puede usar palabras compuestas como puede ser **Palma de Mallorca**, la cual daba error en el archivo *.aiml* del chatbot del ejercicio **1** en donde lo enlazabamos a la .url de *weather-foreccast*.
 
 Seguidamente se muestran unas capturas de pantalla, donde se pueden ver los archivos *.aiml* creados así como los *.maps* y *.sets* asignados a las diferentes categorías en los *.aiml* creados.
+
 . Archivo .aiml mallorca, con información turistica de Mallorca, asi como de restaurantes y meteorología en las diferentes poblaciones de las Islas Baleares:
 ![.aiml mallorca](https://github.com/andreshmb/LMSGI-04.github.io/blob/master/img/turibot2-aiml-mallorca.jpg).
 . 
