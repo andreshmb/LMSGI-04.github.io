@@ -3,7 +3,7 @@
 Unos de los dialectos de ***XML***, es ***AIML***, que significa Lenguaje de Marcado para la Inteligencia Artificial.
 Con ***AIML*** se puede definir el comportamiento de los **bots** conversacionales denominados, ***Chatbots***.
 
- 1. ## Primera Tarea:
+ ## 1. Primera Tarea:
 En esta tarea hay que hacer dos ***Chatbots***. El primero de ellos tiene como punto de partida la traducción, en mi caso lo haré al _Español_, de un ejemplo de información turística en _Inglés_ disponible en el tutorial de [Steve Worswick](https://medium.com/pandorabots-blog/aiml-tutorial-creating-a-context-aware-multi-functional-chatbot-e5e82c027a6a).
 ![Chatbot Turístico](https://github.com/andreshmb/LMSGI-04.github.io/blob/master/img/aiml-tutorial-steve-worswick.jpg)
 Para la realización de la tarea hay que acceder a la plataforma [Pandorabots](https://home.pandorabots.com/home.html), crear una cuenta y acceder a la plataforma. En donde podremos crear nuestro primer ***Chatbot*** desde el panel superior izquierdo pulsando en ***MY BOTS +*** , donde indicaremos el nombre y lenguaje del **Bot**, así como el contenido del bot en donde indicaremos que sea en blanco para realizarlo desde cero.
@@ -49,8 +49,16 @@ Aquí la dirección del vídeo en YouTube:
 ---
 
 
- 2. ## Segunda Tarea:
+## 2. Segunda Tarea:
 En esta segunda tarea hay que hacer un ***Chatbot*** sobre cualquier tema que nos interese o hacer modificaciones tanto sustanciales como ampliaciones de algunos de los ejemplos disponibles en ***Github*** en el repositorio de [Pandorabots](https://github.com/pandorabots/free-AIML).
+
+He decidido mejorar el ***chatbot*** de la primera tarea agregando mas archivos *.aiml*, en donde he creado mapas *.maps* y sets *.sets* para poder ofrecer la prevision meteorologica de las diferentes poblaciones de las Islas Baleares, en donde en este caso se puede usar palabras compuestas como puede ser **Palma de Mallorca**, la cual daba error en el archivo *.aiml* del chatbot del ejercicio **1** en donde lo enlazabamos a la .url de *weather-foreccast*.
+
+Seguidamente se muestran unas capturas de pantalla, donde se pueden ver los archivos *.aiml* creados así como los *.maps* y *.sets* asignados a las diferentes categorías en los *.aiml* creados.
+
+. Archivo .aiml mallorca, con información turistica de Mallorca, asi como de restaurantes y meteorología en las diferentes poblaciones de las Islas Baleares:
+![.aiml mallorca](https://github.com/andreshmb/LMSGI-04.github.io/blob/master/img/turibot2-aiml-mallorca.jpg).
+. 
 
 
 <!--stackedit_data:
