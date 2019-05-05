@@ -52,13 +52,51 @@ Aquí la dirección del vídeo en YouTube:
 ## 2. Segunda Tarea:
 En esta segunda tarea hay que hacer un ***Chatbot*** sobre cualquier tema que nos interese o hacer modificaciones tanto sustanciales como ampliaciones de algunos de los ejemplos disponibles en ***Github*** en el repositorio de [Pandorabots](https://github.com/pandorabots/free-AIML).
 
-He decidido mejorar el ***chatbot*** de la primera tarea agregando mas archivos *.aiml*, en donde he creado mapas *.maps* y sets *.sets* para poder ofrecer la prevision meteorologica de las diferentes poblaciones de las Islas Baleares, en donde en este caso se puede usar palabras compuestas como puede ser **Palma de Mallorca**, la cual daba error en el archivo *.aiml* del chatbot del ejercicio **1** en donde lo enlazabamos a la .url de *weather-foreccast*.
+He decidido mejorar el ***chatbot*** de la primera tarea agregando mas archivos **`.aiml`**, en donde he creado mapas `.maps` y sets `.sets` para poder ofrecer la prevision meteorologica de las diferentes poblaciones de las Islas Baleares, en donde en este caso se puede usar palabras compuestas como puede ser **Palma de Mallorca**, la cual daba error en el archivo **`.aiml`** del chatbot del ejercicio **1** en donde lo enlazabamos a la .url de *weather-foreccast*.
 
 Seguidamente se muestran unas capturas de pantalla, donde se pueden ver los archivos *.aiml* creados así como los *.maps* y *.sets* asignados a las diferentes categorías en los *.aiml* creados.
 
-. Archivo .aiml mallorca, con información turistica de Mallorca, asi como de restaurantes y meteorología en las diferentes poblaciones de las Islas Baleares:
-![.aiml mallorca](https://github.com/andreshmb/LMSGI-04.github.io/blob/master/img/turibot2-aiml-mallorca.jpg).
-. 
+Estos son los archivos .aiml nuevos creados en el segundo bot llamado ***turibot2***.
+![`.aiml` nuevos en turibot2](https://github.com/andreshmb/LMSGI-04.github.io/blob/master/img/turibot2-aiml-nuevos1.jpg)
+
+Archivo `.aiml` mallorca, con información turistica de Mallorca, asi como de restaurantes y meteorología en las diferentes poblaciones de las Islas Baleares:
+
+![`.aiml` mallorca](https://github.com/andreshmb/LMSGI-04.github.io/blob/master/img/turibot2-aiml-mallorca.jpg)
+
+Archivo `.aiml` transporte donde nos da informacion sobre las lineas de autobuses del consorcio de transporte las cuales nos pueden transportar desde o hacia cualquier punto de la isla, asi como los buses para desplazarnos por la ciudad **Palma de Mallorca**, Trenes, Tranvia e información de las diferentes agrupaciones de Taxi en las baleares y sus telfonos para poder contactar o pedir un transporte: 
+
+![`.aiml` transporte](https://github.com/andreshmb/LMSGI-04.github.io/blob/master/img/turibot2-aiml-transporte-uso-maps-y-sets.jpg)
+
+Archivo `.aiml` saludos, donde hemos creado una categoria princial y varias categorias con diferentes formas de saludar en diferentes idiomas o jergua, las cuales estan enlazadas mediante la etiqueta `<srai>`a la categoria principal denominada **HOLA**:
+
+![`.aiml` saludos](https://github.com/andreshmb/LMSGI-04.github.io/blob/master/img/turibot2-aiml-saludos.jpg)
+ 
+En este caso este `.aiml` de despedidas hace alusión a la categoría **ADIOS** la cual es la principal y en donde tenemos varias categorías enlazadas mediante `<srai>`a ella misma:
+
+![`.aiml` despedidas](https://github.com/andreshmb/LMSGI-04.github.io/blob/master/img/turibot2-aiml-despedidas.jpg)
+
+Este es el ultimo archivo `.aiml` el cual lo hemos llamado playas, en donde podemos preguntar por las playas de España, en donde nos mostrará botones para ir a la información de las diferentes regiones del territorio Español:
+
+![`.aiml` playas de España](https://github.com/andreshmb/LMSGI-04.github.io/blob/master/img/turibot2-aiml-playas-todo-espa%C3%B1a.jpg)
+
+Aquí podemos ver los mapas que se han creado:
+
+![`.maps` para las diferentes categorías](https://github.com/andreshmb/LMSGI-04.github.io/blob/master/img/turibot2-aiml-maps-creados.jpg)
+
+Aquí podemos ver los `.sets` que se han creado para vincularse a los mapas, hay un `.sets` por cada mapa creado:
+
+![`.sets` creados para cada `.maps` creado](https://github.com/andreshmb/LMSGI-04.github.io/blob/master/img/turibot2-aiml-sets-creados.jpg)
+
+Vemos un ejemplo de archivo creado, en este caso es el mapa meteorologico para las diferentes poblaciones de ***Mallorca***:
+
+![archivo `.maps` meteomallorca](https://github.com/andreshmb/LMSGI-04.github.io/blob/master/img/turibot2-maps-meteomallorca.jpg)
+
+Vemos el archivo `.sets` meteomallorca vinculado al archivo `.maps` meteomallorca:
+
+![archivo `.sets` meteomallorca](https://github.com/andreshmb/LMSGI-04.github.io/blob/master/img/turibot2-sets-meteomallorca.jpg)
+
+
+
 
 
 <!--stackedit_data:
